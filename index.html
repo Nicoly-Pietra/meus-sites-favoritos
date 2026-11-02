@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Configuração dos caracteres da página -->
+    <meta charset="UTF-8">
+
+    <!-- Configuração para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilos visuais da página -->
+    <style>
+        /* Configuração geral da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Título principal */
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Organização dos sites em cartões */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        /* Aparência de cada cartão */
+        .site {
+            background-color: white;
+            width: 200px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Nome de cada site */
+        .site h2 {
+            color: #333;
+            font-size: 20px;
+        }
+
+        /* Imagens dos sites */
+        .site img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin: 10px;
+        }
+
+        /* Links dos sites */
+        .site a {
+            display: block;
+            color: #1769aa;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Efeito ao passar o mouse */
+        .site a:hover {
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Meus sites favoritos: nicoly pietra </h1>
+
+    <!-- Área que organiza os cinco sites favoritos -->
+    <div class="container">
+
+        <!-- Primeiro site: Google -->
+        <div class="site">
+            <h2>Google</h2>
+            <img src="https://www.google.com/s2/favicons?domain=google.com&sz=128"
+                 alt="Logo do Google">
+            <a href="https://www.google.com" target="_blank">
+                Acessar Google
+            </a>
+        </div>
+
+        <!-- Segundo site: YouTube -->
+        <div class="site">
+            <h2>YouTube</h2>
+            <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+                 alt="Logo do YouTube">
+            <a href="https://www.youtube.com" target="_blank">
+                Acessar YouTube
+            </a>
+        </div>
+
+        <!-- Terceiro site: Instagram -->
+        <div class="site">
+            <h2>Instagram</h2>
+            <img src="https://www.google.com/s2/favicons?domain=instagram.com&sz=128"
+                 alt="Logo do Instagram">
+            <a href="https://www.instagram.com" target="_blank">
+                Acessar Instagram
+            </a>
+        </div>
+
+        <!-- Quarto site: GitHub -->
+        <div class="site">
+            <h2>GitHub</h2>
+            <img src="https://www.google.com/s2/favicons?domain=github.com&sz=128"
+                 alt="Logo do GitHub">
+            <a href="https://github.com" target="_blank">
+                Acessar GitHub
+            </a>
+        </div>
+
+        <!-- Quinto site: Canva -->
+        <div class="site">
+            <h2>Canva</h2>
+            <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=128"
+                 alt="Logo do Canva">
+            <a href="https://www.canva.com" target="_blank">
+                Acessar Canva
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
